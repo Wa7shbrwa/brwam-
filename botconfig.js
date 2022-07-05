@@ -1,12 +1,12 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], //Admins of the bot
+  Admins: ["922601286183043103", "993683760421802014"], //Admins of the bot
   ExpressServer: true, //If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
-  SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Token: process.env.Token || "", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
+  SupportServer: "https://discord.gg/7US5CcDf3M", //Support Server Link
+  Token: process.env.Token || "OTkzNjgzNzYwNDIxODAyMDE0.GXnlf-.QN5OmNdNCOe5eZX1ln871vl81hOSGXELPO8tQY", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "922601286183043103", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "922601286183043103", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   ServerDeafen: true, //If you want bot to stay deafened
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
@@ -39,7 +39,7 @@ module.exports = {
 }, 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", //Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "", //Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "922601286183043103", //Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "922601286183043103", //Spotify Client Secret
   },
 };
